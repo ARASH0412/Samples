@@ -1,0 +1,37 @@
+{% extends "layout.html" %}
+{% block body %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 col-md-offset-4" style="background-color:#eeeeee;">
+
+            <p>This App consist of 15 plant disease: and will classify disease on basis of that dataset.</p>
+            <ol>
+                <li>Pepper__bell___Bacterial_spot</li>
+                <li>Pepper__bell___healthy</li>
+                <li>Potato___Early_blight</li>
+                <li>Potato___Late_blight</li>
+                <li>Potato___healthy</li>
+                <li>Tomato_Bacterial_spot</li>
+                <li>Tomato_Early_blight</li>
+                <li>Tomato_Late_blight</li>
+                <li>Tomato_Leaf_Mold</li>
+                <li>Tomato_Septoria_leaf_spot</li>
+                <li>Tomato_Spider_mites_Two_spotted_spider_mite</li>
+                <li>Tomato__Target_Spot</li>
+                <li>Tomato__Tomato_YellowLeaf__Curl_Virus</li>
+                <li>Tomato__Tomato_mosaic_virus</li>
+                <li>Tomato_healthy</li>
+            </ol>
+
+            <br/>
+            <a href="train">CLICK HERE FOR DISEASE PREDICTION</a>
+            <br/>
+            <p align="left">You are logged in as :{{ a }}</p>
+            <p align="right"><a href="logout" >Logout</a> </p>
+        </div>
+    </div>
+
+
+</div>
+
+{% endblock %}

@@ -1,0 +1,191 @@
+{% extends "layout.html" %}
+{% block body %}
+<div class="container">
+    <p style="background-color:black;color:white;text-align:center">You are logged in as :{{ a }}<br>
+        <a href="logout" >Logout</a>
+    </p>
+    <br/>
+    <h4 style="background-color:black;text-align:center;color:white;">Name of disease :{{ message }}</h4>
+    <br/>
+    <div style="overflow-x:auto;">
+    <table class="table table-hover" style="background-color:#eeeeee;">
+        <thead>
+            <th>DISEASE NAME</th>
+            <th>REMEDIAL MEASURES</th>
+        </thead>
+        <tbody>
+        <tr>
+            <td data-label ="DISEASE NAME">Pepper__bell___Bacterial_spot</td>
+                    <td data-label ="REMEDIAL MEASURES">
+                        <ol>
+                            <li>Use disease free planting material</li>
+                            <li>Remove and destroy all crop debris after harvest, or plow material deeply under soil.</li>
+                        </ol>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td data-label ="DISEASE NAME">Pepper__bell___healthy</td>
+                    <td data-label ="REMEDIAL MEASURES">
+                        none
+                    </td>
+                </tr>
+                <tr>
+                    <td data-label ="DISEASE NAME">Potato___Early_blight</td>
+                    <td data-label ="REMEDIAL MEASURES">
+                        <ol>
+                            <li>Fungicidal sprays, preferably with copper fungicides or Zineb given at 15day intervals effectively control the disease.</li>
+                            <li>Since the same spray schedule controls late blight also, it has become a regular practice among potato growers in many tracts to spray the crop with copper fungicides at least three or four times, starting from about six weeks after planting.</li>
+                        </ol>
+                    </td>
+                </tr>
+                <tr>
+                    <td data-label ="DISEASE NAME">Potato___Late_blight</td>
+                    <td data-label ="REMEDIAL MEASURES">
+                        <ol>
+                            <li>Use potato tubers for seed from disease free areas to ensure that the pathogen is not carried through seed tuber.</li>
+                            <li>The infected plant material in the field should be properly destroyed. Grow resistant varieties like Kufri Navtal.</li>
+                            <li>Fungicidal sprays can be effective, if given properly and timely. </li>
+                            <li>Sprays should start a few days before the anticipated time of occurrence of the disease or on the appearance of initial symptoms.</li>
+                            <li>Cool humid atmosphere favours the disease and prevalence of such weather can be indication of disease in a short time ahead. </li>
+                            <li>Spraying should be done with Dithane M-45 or Dithane Z-78 (2.5 kg per 1000 litres of water per hectare).</li>
+                            <li>Spraying should be repeated at 10-12 days interval.</li>
+                        </ol>
+                    </td>
+                </tr>
+                 <tr>
+                    <td data-label ="DISEASE NAME">Potato___healthy</td>
+                    <td data-label ="REMEDIAL MEASURES">
+                        none
+                    </td>
+                </tr>
+
+                <tr>
+                    <td data-label ="DISEASE NAME">Tomato_Bacterial_spot</td>
+                    <td data-label ="REMEDIAL MEASURES">
+                        <ol>
+                            <li>Only use certified disease-free seed and plants.</li>
+                            <li>Avoid areas that were planted with peppers or tomatoes during the previous year.</li>
+                            <li>Avoid overhead watering by using drip or furrow irrigation.</li>
+                            <li>Remove all diseased plant material. Prune plants to promote air circulation. </li>
+                            <li>Spraying with a copper fungicide will give fairly good control the bacterial disease.</li>
+
+                        </ol>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td data-label ="DISEASE NAME">Tomato_Early_blight</td>
+                    <td data-label ="REMEDIAL MEASURES">
+                        <ol>
+                            <li>Early blight fungus overwinters in plant residue and is soil-borne.</li>
+                            <li>It can also come in on transplants. Remove affected plants and thoroughly clean fall garden debris.</li>
+                            <li>Wet weather and stressed plants increase the likelihood of attack.</li>
+                            <li>Copper and/or sulfur sprays can prevent further development of the fungus</li>
+                            <li>he biofungicide Serenade helps to minimize problems with early blight.</li>
+                        </ol>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td data-label ="DISEASE NAME">Tomato_Late_blight</td>
+                    <td data-label ="REMEDIAL MEASURES">
+                        <ol>
+                            <li>Copper sprays offer some control.</li>
+                            <li>Serenade works best as a deterrent, rather than a cure.</li>
+                            <li>The late blight fungus can overwinter in frost-free areas.</li>
+                            <li>Since it spreads to potatoes, it also overwinters in potato debris and seed, even in colder areas. </li>
+                            <li>Remove all debris and don't save seed potatoes.</li>
+                        </ol>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td data-label ="DISEASE NAME">Tomato_Leaf_Mold</td>
+                    <td data-label ="REMEDIAL MEASURES">
+                        <ol>
+                            <li>Crop residue should be removed from the field.</li>
+                            <li>Staking and pruning to increase air circulation helps to control the disease.</li>
+                            <li> Avoid wetting leaves when watering. Rotate with vegetables other than tomatoes.</li>
+                            <li>Using a preventative fungicide program with chlorothalonil, mancozeb or copper fungicide, can control the disease.</li>
+                        </ol>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td data-label ="DISEASE NAME">Tomato_Septoria_leaf_spot</td>
+                    <td data-label ="REMEDIAL MEASURES">
+                        <ol>
+                            <li>Avoid watering tomatoes from the top, as the spray can force the spores developing on the leaves back into the soil and continue the disease cycle.</li>
+                            <li>Certis Double Nickel 55 Fungicide & Bactericide was developed for use against Septoria Leaf Spot on tomatoes.</li>
+                        </ol>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td data-label ="DISEASE NAME">Tomato_Spider_mites_Two_spotted_spider_mite</td>
+                    <td data-label ="REMEDIAL MEASURES">
+                        <ol>
+                            <li>The best method for treating spider mites on tomato plants is to use neem oil spray.</li>
+                            <li>Another option is insecticidal soap, which also offers a treatment for spider mites.</li>
+                        </ol>
+                    </td>
+                </tr>
+
+                 <tr>
+                    <td data-label ="DISEASE NAME">Tomato__Target_Spot</td>
+                    <td data-label ="REMEDIAL MEASURES">
+                        <ol>
+                            <li>Spray with protectant fungicides after first symptoms appear.</li>
+                            <li>Consult with your local extension agent for fungicides available in your region.</li>
+                            <li>Remove affected debris to prevent carryover into the next crop.</li>
+                            <li>Use an adequate period of crop rotation.</li>
+                            <li>Genetic resistance to this fungus has been documented in tomato and soybean but commercial varieties are not yet available.</li>
+                        </ol>
+                    </td>
+                </tr>
+
+                  <tr>
+                    <td data-label ="DISEASE NAME">Tomato__Tomato_YellowLeaf__Curl_Virus</td>
+                    <td data-label ="REMEDIAL MEASURES">
+                        <ol>
+                            <li>Removal of plants with initial symptoms may slow the spread of the disease.</li>
+                            <li>Rogued (pulled out) infected plants should be immediately bagged to prevent the spread of the whiteflies feeding on those plants.</li>
+                            <li>Keep weeds controlled within and around the garden site, as these may be alternate hosts for whiteflies.</li>
+                            <li>Reflective mulches (aluminum or silver-colored) can be used in the rows to reduce whitefly feeding.</li>
+                            <li>Low concentration sprays of a horticultural oil or canola oil will act as a whitefly repellent, reduce feeding and possibly transmission of the virus.</li>
+                            <li>Use a 0.25 to 0.5% oil spray (2 to 4 teaspoons horticultural or canola oil & a few drops of dish soap per gallon of water) weekly. Examples of products containing horticultural oil are Ferti-lome Horticultural Oil Spray and Bonide All Seasons Spray Oil.</li>
+                            <li> Example of a product containing canola oil is Espoma Earth-tone Horticultural Oil Ready to Spray.</li>
+                        </ol>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td data-label ="DISEASE NAME">Tomato__Tomato_mosaic_virus</td>
+                    <td data-label ="REMEDIAL MEASURES">
+                        <ol>
+                            <li>There are no chemical controls for viruses.Remove and destroy infected plants promptly.</li>
+                            <li>Eliminate weeds in and near the garden.</li>
+                            <li>Control insects (thrips and whiteflies) that carry viruses</li>
+                            <li>Rotate tomatoes with crucifers (such as cabbage, broccoli and turnips).</li>
+                            <li>Use reflective mulches. Use virus resistant tomato cultivars.</li>
+                            <li>Many cultivars have Tobacco mosaic virus (TMV) resistance (the letter T follows the cultivar name), such as: Bush Celebrity, Bush Early Girl, Jetsetter, Big Beef, Celebrity, Sweet Cluster, Sweet Million (cherry), and Super Marzano (paste).</li>
+                        </ol>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td data-label ="DISEASE NAME">Tomato_healthy</td>
+                    <td data-label ="REMEDIAL MEASURES">
+                        none
+                    </td>
+                </tr>
+        </tbody>
+            </table>
+            <br/>
+
+
+        </div>
+</div>
+
+{% endblock %}

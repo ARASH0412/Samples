@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+{% block body %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 col-md-offset-4" style="background-color:#eeeeee;">
+             <h4>Please upload the Image to Test</h4>
+            <form action="upload_image" method="post" enctype="multipart/form-data">
+                Choose File:<input type="file" name="image" accept=".png, .jpg, .jpeg" id='demo' required="required" onchange="readURL(this);"/>
+                <p style="font-size:18px"></b>Your Input Image</b></p>
+                <img id="blah" src="#" alt="your image"/>
+                <br/>
+                <input type="submit" value="UPLOAD LEAF IMAGE AND PREDICT"/>
+
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}

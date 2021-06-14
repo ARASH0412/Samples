@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title> Leafy Disease </title>
+    <link rel = "icon" href="{{ url_for('static', filename='icon.jpg') }}" type = "image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="{{ url_for('static', filename='upload.js') }}"></script>
+    <style>
+    body
+    {
+    height: 800px; /* You must set a specified height */
+    background-size: cover;
+    background-image: url('https://t3.ftcdn.net/jpg/02/10/95/06/240_F_210950600_NdThTU1HCcFE2MrqEVyYIgO0n01uEtqR.jpg');
+    }
+
+    table{
+    width:100%;
+    }
+    th,td{
+    padding:15px;
+    text-align:left;
+    }
+    table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    }
+    /* responsive */
+    @media(max-width:500px){
+    thead{
+    display:none;
+    }
+   tbody, tr,td{
+   display:block;
+   width:100%;
+   }
+   tr{
+   margin-bottom:15px;}
+
+   td::before{
+   content :attr{dat-label);
+   position:absolute;
+   font-weight:bold;
+   text-align: left}
+}
+
+
+
+
+</style>
+</head>
+<body>
+    <div class="jumbotron text-center" style="color:white;background-color: green">
+      <h1>LEAF DISEASE DETECTION</h1>
+    </div>
+
+
+    {% block body %}{% endblock %}
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
